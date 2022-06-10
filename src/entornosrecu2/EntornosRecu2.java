@@ -12,7 +12,7 @@ public class EntornosRecu2 {
         System.out.println(calc1.multiplicar(3));
         System.out.println(calc1.factorial());
         
-        //aquí sólo se han programado ejemplos. Puedes hacer los tuyos
+ 
            
         
         
