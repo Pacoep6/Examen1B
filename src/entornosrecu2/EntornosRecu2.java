@@ -6,9 +6,9 @@ package entornosrecu2;
 
 public class EntornosRecu2 {
 
-    private int numRamas;
-    private String ramaPrincipal;
-    private String ramaEvolucionada;
+    private int numRamas; //rellena desde el ejercicio 1!!
+    private String ramaPrincipal; //rellena desde el ejercicio 1!!
+    private String ramaEvolucionada; //rellena desde el ejercicio 1!!
     
     public static void main(String[] args) {
         
