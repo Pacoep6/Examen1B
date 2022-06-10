@@ -7,12 +7,15 @@ package entornosrecu2;
 public class EntornosRecu2 {
 
     public static void main(String[] args) {
+        
+        //aquí sólo hacemos ejemplos para ver que funciona bien la clase Matemáticas
+        
         Matematicas calc1 = new Matematicas(11);//ejemplo
         System.out.println(calc1.capicua()); //ejemplo
         System.out.println(calc1.multiplicar(3));
         System.out.println(calc1.factorial());
         
- 
+        
            
         
         
