@@ -6,6 +6,10 @@ package entornosrecu2;
 
 public class EntornosRecu2 {
 
+    private int numRamas;
+    private String ramaPrincipal;
+    private String ramaEvolucionada;
+    
     public static void main(String[] args) {
         
         //aquí sólo hacemos ejemplos para ver que funciona bien la clase Matemáticas
