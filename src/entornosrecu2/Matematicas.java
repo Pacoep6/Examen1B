@@ -41,7 +41,7 @@ public class Matematicas {
     
     public double factorial() {
         double result = 1;
-        for (int i = 1; i < this.numero; i++) {
+        for (int i = 1; i <= this.numero; i++) {
             result = result * i;
         }
         return result;
