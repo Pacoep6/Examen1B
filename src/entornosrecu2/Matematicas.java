@@ -9,6 +9,7 @@ public class Matematicas {
      /**
      *Atributo de tipo int llamado numero 
      * @see factorial()
+     * 
      */
     private int numero;
     /**
