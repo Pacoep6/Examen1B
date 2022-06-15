@@ -6,7 +6,10 @@ package entornosrecu2;
 
 
 public class Matematicas {
-
+     /**
+     *Atributo de tipo int llamado numero 
+     * @see factorial()
+     */
     private int numero;
     /**
      *He refactorizado loa variable dando click derecho refactor rename
@@ -20,6 +23,9 @@ public class Matematicas {
             this.numero = numentrante;
         }
     }
+    /**
+     * Nuevo metodo identico al contructor
+    */
     public void chequearNum(int numIn) {
         if ((numIn > 999) || (numIn < 1)) {
             this.numero = 1;
@@ -28,6 +34,9 @@ public class Matematicas {
             this.numero = numIn;
         }
     }
+    /**
+     * Metodo para comprobar si el numero es capicua
+     */
     public boolean capicua() {
         if (this.numero < 10) {
             return true;
@@ -48,7 +57,9 @@ public class Matematicas {
         }
 
     }
-    
+     /**
+     * Metodo para sacar el factorial de un numero
+     */
     public double factorial() {
         double result = 1;
         for (int i = 1; i < this.numero; i++) {
@@ -56,15 +67,21 @@ public class Matematicas {
         }
         return result;
     }
-
+    /**
+     * Metodo para multiplicar dos numeros
+     */
     public int multiplicar(int num2){
         return (this.numero * num2);
     }
-
+    /**
+     * Metodo que devueleve un numero
+     */
     public int getNumero() {
         return numero;
     }
-
+    /**
+     * Metodo que recoge un numero
+     */
     public void setNumero(int numero) {
         this.numero = numero;
     }
