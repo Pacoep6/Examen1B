@@ -8,8 +8,19 @@ package entornosrecu2;
 public class Matematicas {
 
     private int numero;
-
-    public Matematicas(int numIn) {
+    /**
+     *He refactorizado loa variable dando click derecho refactor rename
+     *He creado la clase chequear num con el mismo contenido del constructor y al refactorizar no me ha cambiado las variables del metdodo nuevo  
+     */
+    public Matematicas(int numentrante) {
+        if ((numentrante > 999) || (numentrante < 1)) {
+            this.numero = 1;
+            System.out.println("Número inválido. Se establece 1");
+        } else {
+            this.numero = numentrante;
+        }
+    }
+    public void chequearNum(int numIn) {
         if ((numIn > 999) || (numIn < 1)) {
             this.numero = 1;
             System.out.println("Número inválido. Se establece 1");
@@ -17,7 +28,6 @@ public class Matematicas {
             this.numero = numIn;
         }
     }
-
     public boolean capicua() {
         if (this.numero < 10) {
             return true;
