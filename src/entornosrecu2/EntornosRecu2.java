@@ -6,10 +6,10 @@ package entornosrecu2;
 
 public class EntornosRecu2 {
 
-    private int numRamas; //rellena desde el ejercicio 1!!
-    private String ramaPrincipal; //rellena desde el ejercicio 1!!
-    private String ramaEvolucionada; //rellena desde el ejercicio 1!!
-    
+    private int numRamas=4; //rellena desde el ejercicio 1!!
+    private String ramaPrincipal="master"; //rellena desde el ejercicio 1!!
+    private String ramaEvolucionada="HEAD"; //rellena desde el ejercicio 1!!
+    private String explicacionEJ5="Al hacer esto las respuestas que habia puesto del apratado 3 ya no estan";
     public static void main(String[] args) {
         
         //aquí sólo hacemos ejemplos para ver que funciona bien la clase Matemáticas
