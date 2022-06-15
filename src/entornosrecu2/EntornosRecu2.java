@@ -3,6 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package entornosrecu2;
+/**
+ * 
+ * @author Rodrigo
+ */
 
 public class EntornosRecu2 {
 
