@@ -10,6 +10,8 @@ public class EntornosRecu2 {
     private String ramaPrincipal = "main"; //rellena desde el ejercicio 1!!
     private String ramaEvolucionada = "ramaPaco"; //rellena desde el ejercicio 1!!
     
+    //mete aquí más variables si las pido.
+    
     public static void main(String[] args) {
         
         //aquí sólo hacemos ejemplos para ver que funciona bien la clase Matemáticas
