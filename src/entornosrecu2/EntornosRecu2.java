@@ -4,6 +4,12 @@
  */
 package entornosrecu2;
 
+/**
+ * 
+ * @author admin
+ * @version version ejercicio 9 Miguel
+ * @see Matematicas#factorial() 
+ */
 public class EntornosRecu2 {
 
     private int numRamas = 3; //rellena desde el ejercicio 1!!

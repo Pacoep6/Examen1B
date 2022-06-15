@@ -6,10 +6,21 @@ package entornosrecu2;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author admin
+ * version ejercicio 9 Miguel
+ */
 public class Matematicas {
     Scanner sc = new Scanner(System.in);
 
+    /**
+     * variable numero de tipo entero que nos ayudara a realizar las operaciones matematicas
+     */
     private int numero;
+    /**
+     * variable usuario de tipo String que indicara el nombre del usuario
+     */
     private String usuario = "Paco";
 
     /**
@@ -26,6 +37,10 @@ public class Matematicas {
         }
     }
 
+    /**
+     * El emtodo capicua nos indica si un numero es capicua o no
+     * @return devuelve un valor booleano
+     */
     public boolean capicua() {
         if (this.numero < 10) {
             return true;
@@ -47,6 +62,10 @@ public class Matematicas {
 
     }
 
+    /**
+     * El metodo factorial nos realiza el factorial de un numero
+     * @return devuelve el factorial de un numero
+     */
     public double factorial() {
         double result = 1;
         for (int i = 1; i <= this.numero; i++) {
@@ -55,6 +74,11 @@ public class Matematicas {
         return result;
     }
 
+    /**
+     * El metodo multiplicar realiza la multiplicacion de dos numeros
+     * @param num2 sera un valor que le pasamos al metodo que hara la multiplicacion 
+     * @return nos ddevulve un numero con el resultado de la multiplicacion 
+     */
     public int multiplicar(int num2) {
         return (this.numero * num2);
     }
