@@ -4,11 +4,18 @@
  */
 package entornosrecu2;
 
+/**
+ * @version version definitiva
+ * @author admin
+ * @see Matematicas#factorial()  
+ */
 public class EntornosRecu2 {
 
     private int numRamas = 3; //rellena desde el ejercicio 1!!
     private String ramaPrincipal = "main"; //rellena desde el ejercicio 1!!
     private String ramaEvolucionada = "ramaPaco"; //rellena desde el ejercicio 1!!
+    private String explicacionEJ6 = "Se añaden las varibles que antes no esstaban y se cambia un comentario de sitio";
+    private String explicacionEJ7 = "System.out.println(calc1.factorial())";
     
     //mete aquí más variables si las pido.
     
