@@ -1,4 +1,5 @@
 Ej 11 Da un error porque se han realizado cambios en la rama donde se esta haciendo el push y no se puede por la versión actual del mio
+
 Ej 12 He realizado 5 versiones
 
 commit 214179dafeb03a0fd6c8d0fe726a9858db23ad3f (HEAD -> ramaRPG)
