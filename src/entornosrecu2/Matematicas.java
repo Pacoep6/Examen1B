@@ -4,20 +4,30 @@
  */
 package entornosrecu2;
 
-
+/**
+ * 
+ * @author admin
+ * @version
+ */
 public class Matematicas {
 
     private int numero;
-
-    public Matematicas(int numIn) {
-        if ((numIn > 999) || (numIn < 1)) {
-            this.numero = 1;
-            System.out.println("Número inválido. Se establece 1");
-        } else {
-            this.numero = numIn;
-        }
+    /**
+     * 
+     * @param numEntrante 
+     */
+    public Matematicas(int numEntrante) {
+    if ((numEntrante > 999) || (numEntrante < 1)) {
+    this.numero = 1;
+    System.out.println("Número inválido. Se establece 1");
+    } else {
+    this.numero = numEntrante;
     }
-
+    }
+    /**
+     * 
+     * @return 
+     */
     public boolean capicua() {
         if (this.numero < 10) {
             return true;
@@ -38,7 +48,10 @@ public class Matematicas {
         }
 
     }
-    
+    /**
+     * 
+     * @return 
+     */
     public double factorial() {
         double result = 1;
         for (int i = 1; i < this.numero; i++) {
@@ -46,17 +59,31 @@ public class Matematicas {
         }
         return result;
     }
-
+    /**
+     * 
+     * @param num2
+     * @return 
+     */
     public int multiplicar(int num2){
         return (this.numero * num2);
     }
-
+    /**
+     * 
+     * @return 
+     */
     public int getNumero() {
         return numero;
     }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
+    
+    
+    /**
+     * Para cambiar mediuante refactorizacion he seleccionadola variable y la he 
+     * cambiado en la pestaña refactor dentro de Change method parameters
+     * 
+     * @param num 
+     */
+    public void chequearNum(int num) {
+    this.numero = num;
     }
     
     

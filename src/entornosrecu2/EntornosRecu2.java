@@ -3,12 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package entornosrecu2;
-
+/**
+ * 
+ * @author admin
+ * @version 
+ * @see factorial() 
+ */
 public class EntornosRecu2 {
 
-    private int numRamas; //rellena desde el ejercicio 1!!
-    private String ramaPrincipal; //rellena desde el ejercicio 1!!
-    private String ramaEvolucionada; //rellena desde el ejercicio 1!!
+    private int numRamas = 3; //rellena desde el ejercicio 1!!
+    private String ramaPrincipal = "main"; //rellena desde el ejercicio 1!!
+    private String ramaEvolucionada = "ramaPaco"; //rellena desde el ejercicio 1!!
+    private String explicacionEJ6 = "En la revision mas antigua todavia no estaban "
+            + "incluidas las variables necesarias para el ejercicio 1  y el comentario de los ejemplos estabe en un sitio diferente"; //solución de
     
     public static void main(String[] args) {
         
