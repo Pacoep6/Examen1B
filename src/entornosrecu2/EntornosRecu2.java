@@ -9,6 +9,9 @@ public class EntornosRecu2 {
     private int numRamas = 3; //rellena desde el ejercicio 1!!
     private String ramaPrincipal = "main"; //rellena desde el ejercicio 1!!
     private String ramaEvolucionada = "ramaPaco"; //rellena desde el ejercicio 1!!
+    private String explicacionEJ5 = "Se ha hecho un merge con la rama ramaPaco sobre la mía y muestra que se ha cambiado";
+    private String explicacionEJ6 = "Se han añadido variables y movido un comentario de lugar";
+    private String explicacionEJ7 = "Había un println que hacía uso de un método de otra clase que era el factorial";
     
     //mete aquí más variables si las pido.
     
