@@ -11,6 +11,7 @@ public class EntornosRecu2 {
     private String ramaEvolucionada="HEAD"; //rellena desde el ejercicio 1!!
     private String explicacionEJ5="Al hacer esto las respuestas que habia puesto del apratado 3 ya no estan";
     private String explicacionEJ6="Tanto las variables y los comentarios no estan";
+    private String explicacionEJ7="No habia nada";
     public static void main(String[] args) {
         
         //aquí sólo hacemos ejemplos para ver que funciona bien la clase Matemáticas
