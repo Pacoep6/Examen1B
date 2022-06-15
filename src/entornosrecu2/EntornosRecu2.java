@@ -9,7 +9,7 @@ public class EntornosRecu2 {
     private int numRamas=5; //rellena desde el ejercicio 1!!
     private String ramaPrincipal="main"; //rellena desde el ejercicio 1!!
     private String ramaEvolucionada="main"; //rellena desde el ejercicio 1!!
-    
+    private String explicacion5="Observo que las variables no estan inicalizadas como en esta rama";
     public static void main(String[] args) {
         
         //aquí sólo hacemos ejemplos para ver que funciona bien la clase Matemáticas
